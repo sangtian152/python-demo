@@ -16,8 +16,8 @@ from os.path import splitext
 class RPBgColor:
     def __init__(self):
         self.root = Tk()
-        # 初始化RemoveBg，key=q8GM8b6YaLyFL1M7cPwUG5kE
-        self.rm_bg = RemoveBg("q8GM8b6YaLyFL1M7cPwUG5kE", "error.log")
+        # 初始化RemoveBg
+        self.rm_bg = RemoveBg("API KEY", "error.log")
         # 文件输入路径
         self.input_path = StringVar()
         # 临时文件夹
